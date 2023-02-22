@@ -36,15 +36,15 @@ class BigFormula extends React.Component{
         return(
         <>
             <>
-            <button onClick={this.changeValue1}>Click to Change One</button>
+            <button onClick={this.changeValue1}>Click to Change One "x:{this.state.x}"</button>
             <br/>
-            <button onClick={this.changeValue2}>Click to Change Two</button>
+            <button onClick={this.changeValue2}>Click to Change Two "a:{this.state.y}"</button>
             <br/>
-            <button onClick={this.changeValue3}>Click to Change Three</button>
+            <button onClick={this.changeValue3}>Click to Change Three "y:{this.state.y}"</button>
             <br/>
-            <button onClick={this.changeValue4}>Click to Change Four</button>
+            <button onClick={this.changeValue4}>Click to Change Four "b:{this.state.b}"</button>
             <br/>
-            <button onClick={this.changeValueAll}>Click to Change All</button>
+            <button onClick={this.changeValueAll}>Click to Change All "x:{this.state.x},a:{this.state.y},y:{this.state.y},b:{this.state.b}"</button>
             <br/>
             <h1>x/a + y/b = </h1>
             <h1>result {this.state.x/this.state.a + this.state.y/this.state.b}</h1>
