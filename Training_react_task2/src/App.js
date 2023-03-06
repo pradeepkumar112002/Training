@@ -7,6 +7,7 @@ import Comp0 from './Comp0';
 import Square from './Shapes/Square';
 import Shapes from './Shapes/Shapes';
 import Comp5 from './Comp5';
+import Comp6 from './Comp6';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Comp2/>
       <Square/> */}
       <Comp5/>
+      <Comp6/>
     </div>
   );
 }
